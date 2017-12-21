@@ -1,0 +1,6 @@
+ortc.io
+
+root /root/html
+log /tmp/caddy/access.log
+errors /tmp/caddy/errors.log
+fastcgi / 127.0.0.1:9000 php
